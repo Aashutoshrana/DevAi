@@ -21,14 +21,14 @@ const Sidebar=()=> {
          
       <div className='top'>
          <div className='w-11 h-10  gap-2 hover:bg-gray-300 rounded-full shadow' >
-           <img onClick={()=>setExtended(!extended)} src={assets.menu_icon} style={{marginLeft:12,height:55,width:35,marginTop:20}} /></div>
+           <img className='img' onClick={()=>setExtended(!extended)} src={assets.menu_icon} style={{marginLeft:12,height:55,width:35,marginTop:20}} /></div>
           <div style={{
             marginTop:30,
             display:'flex',
             flexDirection:'row',
 
           }} className="new-chat">
-            <img  width="100%"
+            <img className='img'  width="100%"
             src={assets.plus_icon} alt="" />
            {extended ? <p>New Chat</p>:null}
           </div>
@@ -61,7 +61,7 @@ const Sidebar=()=> {
                  padding:'15px 18px'
              }}
             className="recent-entry">
-                <img src={assets.message_icon} style={{width:30,height:30}} />
+                <img className='img' src={assets.message_icon} style={{width:30,height:30}} />
                 <p>React is...</p>
             </div>
           </div> 
@@ -90,7 +90,7 @@ const Sidebar=()=> {
 
             }}
            className="bottom-item_recent-entry">
-            <img src={assets.question_icon} alt="" style={{width:30,height:30,marginLeft:20}}  />
+            <img className='img' src={assets.question_icon} alt="" style={{width:30,height:30,marginLeft:20}}  />
            {extended ?  <p style={{
                fontSize:23,
                paddingTop:5,
@@ -109,7 +109,7 @@ const Sidebar=()=> {
                
             }}
            className="bottom-item_recent-entry">
-            <img src={assets.history_icon}  style={{width:30,height:30,marginLeft:20}}  />
+            <img className='img' src={assets.history_icon}  style={{width:30,height:30,marginLeft:20}}  />
            {
            extended ?
            <p style={{
@@ -129,7 +129,7 @@ const Sidebar=()=> {
               
             }}
            className="bottom-item_recent-entry">
-            <img src={assets.setting_icon} style={{width:30,height:30,marginLeft:20}} />
+            <img className='img' src={assets.setting_icon} style={{width:30,height:30,marginLeft:20}} />
             {extended ?  <p style={{
                 fontSize:23
             }}>Setting</p>:null}

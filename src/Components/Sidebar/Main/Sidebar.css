@@ -3,6 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+@media only screen and (max-width: 600px)
+{
+    body{
+        position: fixed;
+    }
+}
 .sidebar{
     min-height: 100vh;
     display:flex;
@@ -43,16 +49,22 @@
     
 }
 .new-chat:hover{
-   background-color: #e6eaf1; 
+   background-color: #becadd; 
+   
 }
 .recent-entry:hover{
-    background-color: #e6eaf1; 
+    background-color: #becadd; 
+   
 }
 .bottom-item_recent-entry:hover{
-    background:#e6eaf1;
+    background-color: #becadd; 
+   
   
    border-radius:40px;
      width: 150px;
      height: 80px;
     cursor: pointer;
+}
+.img:hover{
+   
 }
