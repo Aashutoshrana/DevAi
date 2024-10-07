@@ -1,0 +1,53 @@
+.sidebar{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    background-color: #C5C6D0;
+    padding: 25px 20px;
+    
+}
+.MenuImg:hover{
+    background-color: #e6eaf1; 
+    border: none;
+    border-radius:5px ;
+   
+
+}
+.sidebar img{
+    width: 20px;
+
+}
+.sidebar .menu{
+    display: block;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.sidebar .new-chat{
+    margin-bottom:10px;
+    display:inline-flex;
+    align-items: center;
+    gap:10px;
+    padding: 10px 15px;
+  
+    border-radius:50px;
+    font-size: 14px;
+    color: gray;
+    cursor: pointer;
+    width: 'fit-content'
+    
+}
+.new-chat:hover{
+   background-color: #e6eaf1; 
+}
+.recent-entry:hover{
+    background-color: #e6eaf1; 
+}
+.bottom-item_recent-entry:hover{
+    background:#e6eaf1;
+  
+   border-radius:40px;
+     width: 150px;
+     height: 80px;
+    cursor: pointer;
+}
